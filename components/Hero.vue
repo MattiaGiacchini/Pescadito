@@ -9,7 +9,7 @@
         <Button type="primary" @click="goToMenu">{{$t('menu_button')}}</Button>
       </div>
     </div>
-    <img :src="`${require(`~/assets/images/chef.svg`)}`" class="w-1/2 xl:max-w-xl lg:max-w-lg hidden lg:block"/>
+    <img :src="`${require(`~/assets/images/chef.svg`)}`" class="w-1/2 xl:max-w-xl lg:max-w-lg hidden md:block"/>
   </div>
 </template>
 
