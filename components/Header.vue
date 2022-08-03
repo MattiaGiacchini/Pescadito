@@ -4,7 +4,7 @@
       <img :src="`${require('~/assets/images/logo.svg')}`" class="w-10 h-10" />
       {{$t('company_name')}}
     </nuxt-link>
-    <div class="flex flex-row gap-5 text-accent-500 font-semibold">
+    <div class="lg:flex flex-row gap-5 text-accent-500 font-semibold hidden">
       <nuxt-link to="/" class="text-border">{{$t('home')}}</nuxt-link>
       <nuxt-link :to="{ path: '/', hash:'contact' }" class="text-border">{{$t('book')}}</nuxt-link>
       

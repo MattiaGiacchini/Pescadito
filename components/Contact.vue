@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto px-[30%] py-24 shadow-lg text-accent-500 flex flex-col gap-3">
+  <div class="mx-auto px-[10%] py-12 lg:px-[30%] lg:py-24 shadow-lg text-accent-500 flex flex-col gap-3">
     <div class="font-semibold text-2xl">{{$t('booking_title')}}</div>
     <form class="flex flex-col md:py-5">
       <div class="mb-4">

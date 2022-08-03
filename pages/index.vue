@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import Menu from '../components/Menu.vue';
-import Contact from '../components/Contact.vue';
-import Footer from '../components/Footer.vue';
+import Menu from '~/components/Menu.vue';
+import Contact from '~/components/Contact.vue';
+import Footer from '~/components/Footer.vue';
 export default {
     name: "IndexPage",
     components: { Menu, Contact, Footer },

@@ -1,10 +1,10 @@
 <template>
-  <div class="mx-auto px-[10%] py-2 flex flex-row-reverse justify-between bg-accent-500 text-main-light-500 items-center w-full shadow-lg">
-    <nuxt-link to="/" class="font-bold text-4xl flex flex-row gap-2 align-middle items-center">
+  <div class="mx-auto px-[10%] py-5 lg:py-2 flex lg:flex-row-reverse flex-col gap-5 lg:gap-0 justify-between bg-accent-500 text-main-light-500 items-center w-full shadow-lg">
+    <nuxt-link to="/" class="font-bold text-4xl flex flex-row gap-2 align-middle items-start lg:items-center w-full">
       <img :src="`${require('~/assets/images/logo.svg')}`" class="w-10 h-10" />
       {{$t('company_name')}}
     </nuxt-link>
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col md:flex-row w-full">
       <div class="flex flex-col">
         <p class="font-bold pb-1">{{$t('contacts')}}</p>
         <p>{{$t('phone')}}: <a href="tel:+393662050235">+39 366 20 50 235</a></p>
